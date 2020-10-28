@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+   <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Face Mask</h2>
+          <img class="testimonial-image" src="data:image/jpeg;base64,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" alt="dog-profile">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Hand sanitizers</h2>
+          <img class="testimonial-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlWAOQ7fUQMI2pImZCrl1QBuHtmLmGXAZXortCg75LmyPSe96y&usqp=CAU" alt="lady-profile">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Hand Gloves</h2>
+          <img class="testimonial-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8tuncicDvl6RRJfV8zbdMue2aSoB3wtJUxIVqgw5HOxZCqvwa&usqp=CAU" alt="lady-profile">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+</body>
+
+</html>
