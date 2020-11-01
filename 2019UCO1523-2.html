@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 5</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		html,body{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			background-color: black;
+			font-family: "Times New Roman",sans-serif;
+		}
+		div{
+			display: block;
+		}
+		.header{
+			margin-top: 0px;
+			height: 75px;
+			background-color: white;
+			text-align: center;
+		}
+		.output{
+			font-size: xx-large;
+			color: white;
+		}
+		.dropdown, .capital{
+			margin-top: 10vh;
+			text-align:center;
+		}
+	</style>
+	<script type="text/javascript">
+		function menu(){
+		selected = document.querySelector('#country');
+		output = selected.value;
+		document.querySelector('.output').textContent = output;
+		}
+	</script>	
+</head>
+<body>
+	<div class="header"><h1 style="text-align: center; margin-top: 50px; padding: 25px; font-size: 40px">Select a Country to show its Capital</h1></div>
+	<div class="dropdown">
+		<select name="countries" id="country" style="height: 25px;width: 120px; text-align: center;">
+			<option value="Delhi">India</option>
+			<option value="Helsinki">Finland</option>
+			<option value="Paris">France</option>
+			<option value="Washington DC">USA</option>
+			<option value="Dubai">UAE</option>
+		</select>
+		<button onclick="menu()" style="height:25px">Show Capital</button>
+	</div>
+
+	<p class="capital" style="font-size: xx-large;color: white">The Capital is : <span class="output"></span></p>
+</body>
+</html>
